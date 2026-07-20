@@ -1,0 +1,140 @@
+2026-07-16 18:20:49,184 [INFO] Waktu mulai: 2026-07-16 18:20:49
+2026-07-16 18:20:49,254 [INFO] Mulai scraping 'com.starbucks.id' (target: 11000 ulasan)...
+2026-07-16 18:20:50,240 [INFO] Batch 1: +200 ulasan | Total: 200
+2026-07-16 18:20:52,638 [INFO] Batch 2: +200 ulasan | Total: 400
+2026-07-16 18:20:54,736 [INFO] Batch 3: +200 ulasan | Total: 600
+2026-07-16 18:20:57,088 [INFO] Batch 4: +200 ulasan | Total: 800
+2026-07-16 18:20:59,295 [INFO] Batch 5: +200 ulasan | Total: 1000
+2026-07-16 18:21:01,437 [INFO] Batch 6: +200 ulasan | Total: 1200
+2026-07-16 18:21:03,788 [INFO] Batch 7: +200 ulasan | Total: 1400
+2026-07-16 18:21:05,874 [INFO] Batch 8: +200 ulasan | Total: 1600
+2026-07-16 18:21:08,257 [INFO] Batch 9: +200 ulasan | Total: 1800
+2026-07-16 18:21:10,386 [INFO] Batch 10: +200 ulasan | Total: 2000
+2026-07-16 18:21:12,964 [INFO] Batch 11: +200 ulasan | Total: 2200
+2026-07-16 18:21:15,036 [INFO] Batch 12: +34 ulasan | Total: 2234
+2026-07-16 18:21:16,536 [INFO] Tidak ada hasil lagi dari Play Store, scraping selesai.
+2026-07-16 18:21:16,536 [INFO] Scraping selesai. Total terkumpul: 2234 ulasan.
+2026-07-16 18:21:16,546 [INFO] Data disimpan ke: dataset\starbucks_reviews_raw.csv  (2234 baris)
+2026-07-16 18:21:21,557 [INFO] 
+==================================================
+2026-07-16 18:21:21,557 [INFO] RINGKASAN DATASET: 2234 ulasan
+2026-07-16 18:21:21,557 [INFO] ==================================================
+2026-07-16 18:21:21,565 [INFO] Distribusi Rating (score):
+score
+1    1044
+2     185
+3     151
+4      97
+5     757
+Name: count, dtype: int64
+2026-07-16 18:21:21,568 [INFO] 
+Distribusi Label Sentimen:
+label
+Negatif    1229
+Positif     854
+Netral      151
+Name: count, dtype: int64
+2026-07-16 18:21:21,568 [INFO] ==================================================
+
+2026-07-16 18:21:21,569 [INFO] Ulasan kosong: 0
+2026-07-16 18:21:21,569 [INFO] Total waktu: 0:00:32.385687
+2026-07-16 18:21:21,569 [INFO] Scraping selesai. Jalankan notebook untuk preprocessing & training.
+2026-07-16 18:23:44,732 [INFO] Waktu mulai: 2026-07-16 18:23:44
+2026-07-16 18:23:44,794 [INFO] Mulai scraping multi-source (target: 11000 ulasan)...
+2026-07-16 18:23:44,794 [INFO]   [starbucks_id_indonesian] Mulai scraping (target: 11500)...
+2026-07-16 18:23:45,534 [INFO]   [starbucks_id_indonesian] Batch 1: +200 | Subtotal: 200
+2026-07-16 18:23:47,792 [INFO]   [starbucks_id_indonesian] Batch 2: +200 | Subtotal: 400
+2026-07-16 18:23:49,907 [INFO]   [starbucks_id_indonesian] Batch 3: +200 | Subtotal: 600
+2026-07-16 18:23:51,941 [INFO]   [starbucks_id_indonesian] Batch 4: +200 | Subtotal: 800
+2026-07-16 18:23:54,023 [INFO]   [starbucks_id_indonesian] Batch 5: +200 | Subtotal: 1000
+2026-07-16 18:23:56,074 [INFO]   [starbucks_id_indonesian] Batch 6: +200 | Subtotal: 1200
+2026-07-16 18:23:58,153 [INFO]   [starbucks_id_indonesian] Batch 7: +200 | Subtotal: 1400
+2026-07-16 18:24:00,298 [INFO]   [starbucks_id_indonesian] Batch 8: +200 | Subtotal: 1600
+2026-07-16 18:24:02,319 [INFO]   [starbucks_id_indonesian] Batch 9: +200 | Subtotal: 1800
+2026-07-16 18:24:04,802 [INFO]   [starbucks_id_indonesian] Batch 10: +200 | Subtotal: 2000
+2026-07-16 18:24:07,510 [INFO]   [starbucks_id_indonesian] Batch 11: +200 | Subtotal: 2200
+2026-07-16 18:24:09,252 [INFO]   [starbucks_id_indonesian] Batch 12: +34 | Subtotal: 2234
+2026-07-16 18:24:10,753 [INFO]   [starbucks_id_indonesian] Tidak ada data lagi.
+2026-07-16 18:24:10,753 [INFO]   [starbucks_id_indonesian] Selesai: 2234 ulasan.
+2026-07-16 18:24:10,755 [INFO] [starbucks_id_indonesian] +2234 unik | Grand total: 2234
+2026-07-16 18:24:10,755 [INFO]   [starbucks_id_english] Mulai scraping (target: 9266)...
+2026-07-16 18:24:11,310 [INFO]   [starbucks_id_english] Batch 1: +200 | Subtotal: 200
+2026-07-16 18:24:13,557 [INFO]   [starbucks_id_english] Batch 2: +200 | Subtotal: 400
+2026-07-16 18:24:15,692 [INFO]   [starbucks_id_english] Batch 3: +200 | Subtotal: 600
+2026-07-16 18:24:17,789 [INFO]   [starbucks_id_english] Batch 4: +200 | Subtotal: 800
+2026-07-16 18:24:19,853 [INFO]   [starbucks_id_english] Batch 5: +200 | Subtotal: 1000
+2026-07-16 18:24:21,999 [INFO]   [starbucks_id_english] Batch 6: +200 | Subtotal: 1200
+2026-07-16 18:24:24,251 [INFO]   [starbucks_id_english] Batch 7: +200 | Subtotal: 1400
+2026-07-16 18:24:26,450 [INFO]   [starbucks_id_english] Batch 8: +200 | Subtotal: 1600
+2026-07-16 18:24:28,801 [INFO]   [starbucks_id_english] Batch 9: +200 | Subtotal: 1800
+2026-07-16 18:24:30,969 [INFO]   [starbucks_id_english] Batch 10: +200 | Subtotal: 2000
+2026-07-16 18:24:33,671 [INFO]   [starbucks_id_english] Batch 11: +200 | Subtotal: 2200
+2026-07-16 18:24:36,005 [INFO]   [starbucks_id_english] Batch 12: +200 | Subtotal: 2400
+2026-07-16 18:24:38,150 [INFO]   [starbucks_id_english] Batch 13: +200 | Subtotal: 2600
+2026-07-16 18:24:40,290 [INFO]   [starbucks_id_english] Batch 14: +200 | Subtotal: 2800
+2026-07-16 18:24:42,342 [INFO]   [starbucks_id_english] Batch 15: +154 | Subtotal: 2954
+2026-07-16 18:24:43,843 [INFO]   [starbucks_id_english] Tidak ada data lagi.
+2026-07-16 18:24:43,843 [INFO]   [starbucks_id_english] Selesai: 2954 ulasan.
+2026-07-16 18:24:43,844 [INFO] [starbucks_id_english] +2954 unik | Grand total: 5188
+2026-07-16 18:24:43,844 [INFO]   [starbucks_global_us] Mulai scraping (target: 6312)...
+2026-07-16 18:24:44,591 [INFO]   [starbucks_global_us] Batch 1: +200 | Subtotal: 200
+2026-07-16 18:24:46,770 [INFO]   [starbucks_global_us] Batch 2: +200 | Subtotal: 400
+2026-07-16 18:24:48,894 [INFO]   [starbucks_global_us] Batch 3: +200 | Subtotal: 600
+2026-07-16 18:24:51,316 [INFO]   [starbucks_global_us] Batch 4: +200 | Subtotal: 800
+2026-07-16 18:24:53,478 [INFO]   [starbucks_global_us] Batch 5: +200 | Subtotal: 1000
+2026-07-16 18:24:55,667 [INFO]   [starbucks_global_us] Batch 6: +200 | Subtotal: 1200
+2026-07-16 18:24:58,012 [INFO]   [starbucks_global_us] Batch 7: +200 | Subtotal: 1400
+2026-07-16 18:25:00,335 [INFO]   [starbucks_global_us] Batch 8: +200 | Subtotal: 1600
+2026-07-16 18:25:02,517 [INFO]   [starbucks_global_us] Batch 9: +200 | Subtotal: 1800
+2026-07-16 18:25:04,757 [INFO]   [starbucks_global_us] Batch 10: +200 | Subtotal: 2000
+2026-07-16 18:25:06,941 [INFO]   [starbucks_global_us] Batch 11: +200 | Subtotal: 2200
+2026-07-16 18:25:09,194 [INFO]   [starbucks_global_us] Batch 12: +200 | Subtotal: 2400
+2026-07-16 18:25:11,541 [INFO]   [starbucks_global_us] Batch 13: +200 | Subtotal: 2600
+2026-07-16 18:25:13,943 [INFO]   [starbucks_global_us] Batch 14: +200 | Subtotal: 2800
+2026-07-16 18:25:16,077 [INFO]   [starbucks_global_us] Batch 15: +200 | Subtotal: 3000
+2026-07-16 18:25:18,323 [INFO]   [starbucks_global_us] Batch 16: +200 | Subtotal: 3200
+2026-07-16 18:25:20,472 [INFO]   [starbucks_global_us] Batch 17: +200 | Subtotal: 3400
+2026-07-16 18:25:22,832 [INFO]   [starbucks_global_us] Batch 18: +200 | Subtotal: 3600
+2026-07-16 18:25:25,260 [INFO]   [starbucks_global_us] Batch 19: +200 | Subtotal: 3800
+2026-07-16 18:25:27,734 [INFO]   [starbucks_global_us] Batch 20: +200 | Subtotal: 4000
+2026-07-16 18:25:30,196 [INFO]   [starbucks_global_us] Batch 21: +200 | Subtotal: 4200
+2026-07-16 18:25:32,723 [INFO]   [starbucks_global_us] Batch 22: +200 | Subtotal: 4400
+2026-07-16 18:25:35,077 [INFO]   [starbucks_global_us] Batch 23: +200 | Subtotal: 4600
+2026-07-16 18:25:37,501 [INFO]   [starbucks_global_us] Batch 24: +200 | Subtotal: 4800
+2026-07-16 18:25:39,686 [INFO]   [starbucks_global_us] Batch 25: +200 | Subtotal: 5000
+2026-07-16 18:25:42,045 [INFO]   [starbucks_global_us] Batch 26: +200 | Subtotal: 5200
+2026-07-16 18:25:44,234 [INFO]   [starbucks_global_us] Batch 27: +200 | Subtotal: 5400
+2026-07-16 18:25:46,493 [INFO]   [starbucks_global_us] Batch 28: +200 | Subtotal: 5600
+2026-07-16 18:25:48,968 [INFO]   [starbucks_global_us] Batch 29: +200 | Subtotal: 5800
+2026-07-16 18:25:51,542 [INFO]   [starbucks_global_us] Batch 30: +200 | Subtotal: 6000
+2026-07-16 18:25:54,208 [INFO]   [starbucks_global_us] Batch 31: +200 | Subtotal: 6200
+2026-07-16 18:25:56,604 [INFO]   [starbucks_global_us] Batch 32: +200 | Subtotal: 6400
+2026-07-16 18:25:58,105 [INFO]   [starbucks_global_us] Selesai: 6400 ulasan.
+2026-07-16 18:25:58,108 [INFO] [starbucks_global_us] +6400 unik | Grand total: 11588
+2026-07-16 18:25:58,108 [INFO] Target tercapai, berhenti.
+2026-07-16 18:25:58,108 [INFO] Scraping selesai. Total unik: 11588 ulasan.
+2026-07-16 18:25:58,180 [INFO] Data disimpan ke: dataset\starbucks_reviews_raw.csv  (11588 baris)
+2026-07-16 18:25:58,678 [INFO] 
+==================================================
+2026-07-16 18:25:58,678 [INFO] RINGKASAN DATASET: 11588 ulasan
+2026-07-16 18:25:58,679 [INFO] ==================================================
+2026-07-16 18:25:58,680 [INFO] Distribusi Rating (score):
+score
+1    5223
+2    1255
+3    1100
+4    1175
+5    2835
+Name: count, dtype: int64
+2026-07-16 18:25:58,683 [INFO] 
+Distribusi Label Sentimen:
+label
+Negatif    6478
+Positif    4010
+Netral     1100
+Name: count, dtype: int64
+2026-07-16 18:25:58,683 [INFO] ==================================================
+
+2026-07-16 18:25:58,686 [INFO] Ulasan kosong: 0
+2026-07-16 18:25:58,688 [INFO] Total waktu: 0:02:13.955653
+2026-07-16 18:25:58,688 [INFO] Scraping selesai. Jalankan notebook untuk preprocessing & training.

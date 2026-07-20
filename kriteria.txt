@@ -1,0 +1,55 @@
+Untuk memenuhi kriteria submission yang telah ditetapkan, 
+beberapa hal harus dipertimbangkan.
+
+Kriteria 1: Data merupakan hasil scraping secara mandiri
+Anda diberi kebebasan untuk mengambil data atau scraping menggunakan 
+bahasa pemrograman Python dari berbagai sumber, seperti platform PlayStore, 
+X, Instagram, komentar pada penilaian barang di e-commerce, dan lain-lain. 
+Jumlah dataset minimal yang harus diperoleh adalah 3.000 sampel. 
+
+Kriteria 2: Melakukan tahapan ekstraksi fitur dan pelabelan data
+Metode yang digunakan bebas sesuai dengan preferensi masing-masing peserta. 
+Tahapan ini penting untuk mempersiapkan data sehingga dapat diolah lebih lanjut 
+dalam proses pelatihan model.
+
+Kriteria 3: Menggunakan algoritma pelatihan machine learning
+Pilihan algoritma pelatihan ini haruslah sesuai dengan tujuan analisis sentimen yang ingin dicapai.
+
+Kriteria 4: Akurasi testing set yang didapatkan minimal harus mencapai 85%
+Hal ini menunjukkan bahwa model yang dikembangkan memiliki kinerja yang baik 
+dalam mengklasifikasikan sentimen dari data yang diberikan.
+
+Dengan memperhatikan semua kriteria ini, Anda diharapkan dapat m
+enghasilkan model analisis sentimen yang berkualitas tinggi dan bisa 
+dipertanggungjawabkan.
+
+HAL YANG WAJIB ANDA PATUHI:
+1. Menggunakan algoritma deep learning.
+2. Akurasi pada training set dan testing set di atas 92%. 
+3. Dataset yang digunakan untuk melatih model minimal memiliki tiga kelas.
+4. Memiliki jumlah data minimal 10.000 sampel data.
+5. Melakukan 3 percobaan skema pelatihan yang berbeda. Skema ini dapat dibedakan dari variasi algoritma pelatihan, metode ekstraksi fitur, pelabelan, dan pembagian data dengan memilih minimal 2 kombinasi.
+
+Catatan:
+- Jika Anda tidak menerapkan saran kedua, pastikan ketiga percobaan skema 
+pelatihan yang dilakukan memiliki akurasi testing set minimal 85%. 
+Lalu jika Anda mencoba lebih dari tiga skema pelatihan, pastikan setidaknya 
+ketiga percobaan di antaranya memiliki akurasi testing set minimal 85%.
+
+- Jika Anda juga ingin menerapkan saran kedua, pastikan percobaan pelatihan yang dilakukan memiliki akurasi pada training set dan testing set di atas 92%. Lalu jika Anda mencoba lebih dari tiga skema pelatihan, pastikan setidaknya salah satu percobaan di antaranya memiliki akurasi pada training set dan testing set di atas 92% dan sisanya 85%.
+Berikut contoh dari 3 percobaan skema pelatihan dengan adanya 2 kombinasi yang berbeda.
+Pelatihan: SVM,    Ekstraksi Fitur: TF-IDF,    Pembagian Data: 80/20
+Pelatihan: RF,    Ekstraksi Fitur: Word2Vec,    Pembagian Data: 80/20
+Pelatihan: RF,    Ekstraksi Fitur: TF-IDF,    Pembagian Data: 70/30    
+
+Melakukan inference atau testing dalam file .ipynb atau .py yang menghasilkan output berupa kelas kategorikal (contoh: negatif, netral, dan positif).
+Pastikan menyertakan bukti inferensi baik itu dalam bentuk screenshot atau output pada notebook
+
+
+- Menggunakan bahasa pemrograman Python.
+- File yang dikumpulkan adalah berikut:
+Kriteria Utama
+1. Notebook pelatihan model dengan format .ipynb.
+2. File kode scraping dengan format .py atau .ipynb.
+3. File requirements.txt.
+4. Dataset hasil scraping dengan format .csv atau .json.
